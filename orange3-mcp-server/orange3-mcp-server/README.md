@@ -45,20 +45,27 @@ Use it from MCP clients (e.g., **Gemini cli**) via **stdio transport**.
 
 ## 🚀 Quick Start (Conda, recommended)
 
-### 1) Create the environment
+### 1). Get the project
+
+```bash
+git clone https://github.com/<your-username>/orange3-mcp-server.git
+cd orange3-mcp-server
+```
+
+### 2) Create the environment
 
 ```bash
 conda env create -f environment.yml
 conda activate orange3_env
 ```
 
-### 2) Install this server (editable mode)
+### 3) Install this server (editable mode)
 
 ```bash
 pip install -e .
 ```
 
-### 3) Run the MCP server
+### 4) Run the MCP server
 
 ```bash
 orange3-mcp-server
