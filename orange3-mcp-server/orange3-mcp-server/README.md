@@ -38,6 +38,7 @@ Use it from MCP clients (e.g., **Claude Desktop**) via **stdio transport**.
 ## 🔌 Supported MCP Clients
 
 - ✅ Claude Desktop
+- ✅ Gemini cli
 - ✅ Any MCP client that supports **stdio** servers
 
 ---
