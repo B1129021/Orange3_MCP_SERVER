@@ -1,12 +1,10 @@
 {
-  "mcpServers": {
-    "Orange3MCPServer": {
-      "command": "C:/anaconda/envs/orange3_env/python",
-      "args": [
-        "C:/Users/samue/Desktop/orange3_mcp_server/main.py"
-      ]
-    }
-  },
-  "theme": "Default",
-  "selectedAuthType": "oauth-personal"
+  "name": "orange3-mcp-server",
+  "transport": "stdio",
+  "command": "python",
+  "args": [
+    "-m",
+    "orange3_mcp_server"
+  ],
+  "description": "Orange3-based MCP Server providing data mining / ML tools via FastMCP."
 }
