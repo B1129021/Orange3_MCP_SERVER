@@ -1,0 +1,15 @@
+# smithery.yaml (best-effort minimal config)
+# Place this file in the repo root. Smithery can use it to build/install your MCP server.
+# You may need to adjust fields based on Smithery's latest schema in the UI.
+
+version: 1
+server:
+  name: orange3-mcp-server
+  description: Orange3-based MCP Server providing data mining / ML tools via FastMCP (stdio).
+  language: python
+  transport: stdio
+  # How to run the server
+  command: python
+  args:
+    - -m
+    - orange3_mcp_server

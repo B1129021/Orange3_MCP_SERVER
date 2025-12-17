@@ -1,0 +1,10 @@
+{
+  "name": "orange3-mcp-server",
+  "transport": "stdio",
+  "command": "python",
+  "args": [
+    "-m",
+    "orange3_mcp_server"
+  ],
+  "description": "Orange3-based MCP Server providing data mining / ML tools via FastMCP."
+}

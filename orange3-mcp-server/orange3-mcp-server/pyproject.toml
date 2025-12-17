@@ -1,0 +1,27 @@
+[project]
+name = "orange3-mcp-server"
+version = "0.1.0"
+description = "Orange3-based MCP Server for data mining workflows (FastMCP + stdio)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "orange3",
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "pillow",
+  "networkx",
+  "joblib",
+  "tqdm",
+  "fastmcp",
+]
+
+[project.scripts]
+orange3-mcp-server = "orange3_mcp_server.main:run_server"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

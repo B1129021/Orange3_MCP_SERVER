@@ -1,0 +1,29 @@
+name: orange3_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+
+  # Core stack
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+
+  # Orange3 ecosystem
+  - orange3
+  - pillow
+  - networkx
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # Utilities
+  - joblib
+  - tqdm
+
+  # MCP
+  - pip
+  - pip:
+      - fastmcp
