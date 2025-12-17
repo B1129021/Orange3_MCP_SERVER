@@ -1,7 +1,7 @@
 # 🍊 Orange3 MCP Server
 
 An **Orange3-based MCP (Model Context Protocol) Server** that exposes classic data mining and ML workflows as MCP tools.
-Use it from MCP clients (e.g., **Claude Desktop**) via **stdio transport**.
+Use it from MCP clients (e.g., **Gemini cli**) via **stdio transport**.
 
 ---
 
