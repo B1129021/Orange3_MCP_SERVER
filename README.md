@@ -49,7 +49,7 @@ Use it from MCP clients (e.g., **Gemini cli**) via **stdio transport**.
 
 ```bash
 git clone https://github.com/B1129021/Orange3_MCP_SERVER.git
-cd orange3-mcp-server
+cd .../Orange3_MCP_SERVER/orange3-mcp-server/orange3-mcp-server
 ```
 
 ### 2) Create the environment
