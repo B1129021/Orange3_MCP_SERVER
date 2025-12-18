@@ -48,7 +48,7 @@ Use it from MCP clients (e.g., **Gemini cli**) via **stdio transport**.
 ### 1). Get the project
 
 ```bash
-git clone https://github.com/<your-username>/orange3-mcp-server.git
+git clone https://github.com/B1129021/Orange3_MCP_SERVER.git
 cd orange3-mcp-server
 ```
 
